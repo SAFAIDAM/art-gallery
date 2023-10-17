@@ -1,0 +1,162 @@
+.map {
+  position: relative;
+}
+
+.map > .button-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.button {
+  font-family: "Big Shoulders Display", cursive;
+ background-color: #d5966c;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.5rem;
+  letter-spacing: 0.227rem;
+  color: white;
+  padding: 24px 35px;
+  transform: 0.5s;
+}
+.logo > img {
+  padding: 24px;
+  background: #d5966c;
+}
+.map > img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+iframe{
+  width: 1400px;
+  margin-left: 40px;
+}
+
+.main-part {
+  background: black;
+  color: white;
+  padding-top: 48px;
+  padding-bottom: 56px;
+}
+
+.main-part h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.125rem;
+  font-weight: 900;
+  line-height: 2.813rem;
+  padding-left: 16px;
+  padding-bottom: 48px;
+  text-transform: uppercase;
+  padding-right: 16px;
+}
+.content {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.content h4 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #d5966c;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 2rem;
+}
+
+.content p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+}
+.paragraph4 {
+  padding-top: 20px;
+}
+
+
+footer {
+  font-family: "Outfit", sans-serif;
+  background: #d5966c;
+  padding: 48px 32px 50px 32px;
+}
+footer p {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding: 38px 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .map a {
+    padding-left: 40px;
+  }
+
+  .main-part {
+    padding-top: 88px;
+    padding-bottom: 80px;
+    display: flex;
+    padding-right: 40px;
+  }
+
+  .main-part h2 {
+    font-size: 3.438rem;
+    line-height: 3.125rem;
+    padding: 0 68px 248px 40px;
+  }
+  .content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 40px;
+  }
+  footer p {
+    padding: 0 133px 0 65px;
+    width: 500px;
+  }
+  .footer-icons img{
+    color: black;
+  }
+  
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .map a{
+    padding-left: 156px;
+  }
+  .main-part {
+    padding-top: 104px;
+    padding-bottom: 120px;
+  }
+  
+  .main-part h2 {
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+    padding:0 250px 170px 165px;
+  }
+  .content {
+    padding-right: 150px;
+  }
+  
+  .content h4 {
+    font-size: 2.25rem;
+    line-height:2.25rem;
+  }
+  .paragraph4 {
+    padding-top: 32px;
+    width: 540px;
+  }
+}
