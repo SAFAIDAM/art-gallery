@@ -28,6 +28,9 @@ p {
   position: relative;
   left: 174px;
 }
+.header-cont-1{
+  width: 25%;
+}
 .para1 {
   width: 350px;
   color: var(--Dark-Grey, #444);
@@ -78,7 +81,7 @@ p {
 
 .text-cont {
   background: var(--Almost-Black, #151515);
-  width: 552px;
+  width: 429px;
   height: 799px;
   flex-shrink: 0;
 }
