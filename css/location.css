@@ -104,6 +104,7 @@ footer p {
     padding-bottom: 80px;
     display: flex;
     padding-right: 40px;
+    margin: -8px;
   }
 
   .main-part h2 {
@@ -120,6 +121,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     padding: 56px 40px;
+    margin: -8px;
   }
   footer p {
     padding: 0 133px 0 65px;
@@ -128,7 +130,11 @@ footer p {
   .footer-icons img{
     color: black;
   }
-  
+  iframe{
+    width: 1400px;
+    margin-left: 40px;
+    overflow-x: hidden;
+  }
 
 }
 
